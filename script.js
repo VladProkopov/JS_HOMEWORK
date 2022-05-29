@@ -67,8 +67,22 @@ let n = 1000;
 console.log(Number);
 
 
-// Задание 8
+// Задание 8    не решил
+let o = prompt('Введите число');
+// Задание 9    не решил
+let numStr = '4 98 4 6 1 32 4 65 4 3 5 7 89 7 10 1 36 8 57';
+
+let num = '';
+for (let i = 0; i < numStr.length; i++) {
+    if (numStr[i] !=' '){
+        num += numStr[i];
+    } else {
+        console.log(num);
+        num = '';
+    }       
+}
 
 
-// Задание 9
-// Задание 10
+// Задание 10   не решил
+n = 123;
+
