@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(0, 0, 0);
+    color: gold;
+}
+
+li {
+    list-style: none;
+    color: gold;
+    margin-top: 10px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.content {
+    text-align: center;
+    border: 3px solid gold;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.content_list {
+    padding: 20px;
+}
+
+.content_list_title {
+    border-bottom: 1px solid gold;
+}
+
+.content_list_input {
+    border: 2px solid gold;
+    border-radius: 4px;
+    padding: 3px;
+    margin-top: 15px;
+    outline: none;
+}
+
+.content_list_input::placeholder {
+    font-family: Arial;
+    font-size: 15px;
+}
+
+
+input[type=checkbox]:checked + span {
+    text-decoration: line-through;
+    text-decoration-color: gold;
+    color: white;
+    font-style: italic;
+}
+
+.btn_revome,
+.btn_change {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    
+}
+
+.btn_revome {
+    background-image: url(/images/remove.png);
+    cursor: pointer;
+}
+
+.btn_change {
+    background-image: url(/images/exchange.png);
+    cursor: pointer;
+}
