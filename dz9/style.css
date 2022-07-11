@@ -68,11 +68,11 @@ input[type=checkbox]:checked + span {
 }
 
 .btn_revome {
-    background-image: url(/images/remove.png);
+    background-image: url(/dz9/images/remove.png);
     cursor: pointer;
 }
 
 .btn_change {
-    background-image: url(/images/exchange.png);
+    background-image: url(/dz9/images/exchange.png);
     cursor: pointer;
 }
